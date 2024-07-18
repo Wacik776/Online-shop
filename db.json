@@ -1,0 +1,20 @@
+{
+    "users":[
+        {
+            "id":1,
+            "email": "son@mail.ru",
+            "name": "Sonya",
+            "surname": "Rahk",
+            "phone": "+999221292",
+            "city": "CHELYAB",
+            "street": "sonya Krivaia",
+            "home": "2",
+            "orders": [],
+            "carts": [],
+            "point": 500
+        }
+    ],
+    "products":[
+
+    ]
+}
