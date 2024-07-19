@@ -1,3 +1,43 @@
+@use '../../../styles/variables' as *;
+
 .header__nav{
-    background: #000;
+    background: #313131;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__main-info{
+    display: flex;
+    gap:30px;
+    margin-left: 140px;
+    a{
+        color: white
+    }
+}
+
+.header__connectivity{
+    display: flex;
+    gap: 30px;
+    margin-right: 120px;
+}
+
+.header__nav-item{
+    color: white;
+    display: flex;
+}
+
+a:hover{
+    color:bisque
+}   
+
+.header__phone-icon{
+    margin-top: 2px;
+    margin-right: 11px;
+}
+
+.header__delivery-icon{
+    margin-top: 2px;
+    margin-right: 10px;
 }
